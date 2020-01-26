@@ -22,7 +22,7 @@ sudo apt-get install openjdk-8-jdk git python-dev python3-dev python-numpy pytho
 
 sudo apt-get install -y gcc g++ gfortran git linux-image-generic linux-headers-generic linux-source linux-image-extra-virtual libopenblas-dev
 
-git clone https://github.com/deepfakes/faceswap/
+git clone https://github.com/aamazie/IEX-Stock-Price-Retrieval
 
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 
