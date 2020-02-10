@@ -4,6 +4,8 @@ DETAILS CONFIGURATION FOR A GPU EC2 INSTANCE ON A VIRTUAL AWS CLOUD SERVER
 
 WARNING: Check AWS Fees, As This Can Become Expensive!!
 
+Set up to do AI on Stock Price Market Data with IEX API
+
 INSTALL
 
 I set up my own Amazon AWS EC2 instance without using an NVIDIA GPU CLOUD image due to FaceSwap's inability to use the latest CUDA and cuDNN versions. The EC2 instance was an Ubuntu 16.04 virtual server. I accessed it with Putty and WinSCP from my Windows 10 machine.
