@@ -8,7 +8,7 @@ Set up to do AI on Stock Price Market Data with IEX API
 
 INSTALL
 
-I set up my own Amazon AWS EC2 instance without using an NVIDIA GPU CLOUD image due to FaceSwap's inability to use the latest CUDA and cuDNN versions. The EC2 instance was an Ubuntu 16.04 virtual server. I accessed it with Putty and WinSCP from my Windows 10 machine.
+I set up my own Amazon AWS EC2 instance without using an NVIDIA GPU CLOUD image due to some repo's inability to use the latest CUDA and cuDNN versions. The EC2 instance was an Ubuntu 16.04 virtual server. I accessed it with Putty and WinSCP from my Windows 10 machine.
 
 I used CUDA 8 and cuDNN 7.3.1
 
@@ -74,4 +74,4 @@ pip install tensorflow
 
 I then set up cmake by downloading the appropriate .sh file on my local machine and using WinSCP to transfer the file to the virtual server. I used ./<cmake_filename>.sh to install cmake I then connected it to my PATH using PATH=$PATH:/<bin_directory_with_cmake_file>
 
-At this point I was able to go into my environment variable for Python3, change directories into the faceswap directory, and run "python setup.py" to download the rest of the dependencies. I did not use Docker for this part.
+And you should be good to go!
