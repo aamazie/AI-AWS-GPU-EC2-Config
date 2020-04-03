@@ -4,7 +4,7 @@ DETAILS CONFIGURATION FOR A GPU EC2 INSTANCE ON A VIRTUAL AWS CLOUD SERVER
 
 WARNING: Check AWS Fees, As This Can Become Expensive!!
 
-Set up to do AI on Stock Price Market Data with IEX API
+Set up to do AI with CMake compiler
 
 INSTALL
 
@@ -25,8 +25,6 @@ sudo apt-get upgrade
 sudo apt-get install openjdk-8-jdk git python-dev python3-dev python-numpy python3-numpy build-essential python-pip python3-pip python3-venv swig python3-wheel libcurl3-dev
 
 sudo apt-get install -y gcc g++ gfortran git linux-image-generic linux-headers-generic linux-source linux-image-extra-virtual libopenblas-dev
-
-git clone https://github.com/aamazie/IEX-Stock-Price-Retrieval
 
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 
