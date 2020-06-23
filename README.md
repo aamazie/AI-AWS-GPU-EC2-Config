@@ -14,7 +14,7 @@ I used CUDA 8 and cuDNN 7.3.1
 
 The way I set up the instance was by going to http://aws.amazon.com/contact-us/ec2-request and creating a case regarding a service limit increase, limit type EC2 Instances, and requesting a p2.xlarge instance type. If you type exactly "fast.ai MOOC" in the case description, they will get back to you extremely fast.
 
-I set up Docker and pulled a Tensorflow image that worked with those CUDA and cuDNN versions. I used this as a guide: https://towardsdatascience.com/how-to-set-up-deep-learning-machine-on-aws-gpu-instance-3bb18b0a2579 I set 120 GB for my instance when setting it up.
+I set up Docker and pulled a Tensorflow image that worked with those CUDA and cuDNN versions. I set 120 GB for my instance when setting it up.
 
 I was in the /home/ubuntu directory. ubuntu was the username that the server gave me. This is the code I wrote:
 
