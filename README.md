@@ -70,6 +70,6 @@ source my_env/bin/activate
 
 pip install tensorflow
 
-I then set up cmake by downloading the appropriate .sh file on my local machine and using WinSCP to transfer the file to the virtual server, I used ./<cmake_filename>.sh to install cmake I then connected it to my PATH using PATH=$PATH:/<bin_directory_with_cmake_file>
+I then set up cmake by downloading the appropriate .sh file on my local machine and using WinSCP to transfer the file to the virtual server, I used ./<cmake_filename>.sh to install cmake. I then connected it to my PATH using PATH=$PATH:/<bin_directory_with_cmake_file>
 
 And you should be good to go!
