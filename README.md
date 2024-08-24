@@ -1,5 +1,7 @@
 # AI-AWS-GPU-EC2-Config
 
+#This is old and will probably be slightly different with contemporary dependencies. conceptual
+
 DETAILS CONFIGURATION FOR A GPU EC2 INSTANCE ON A VIRTUAL AWS CLOUD SERVER
 
 WARNING: Check AWS Fees, As This Can Become Expensive!!
